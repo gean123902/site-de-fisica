@@ -1,0 +1,116 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="player/style.css" />
+    <link rel="shortcut icon" type="imagex/png" href="fotos/icone.ico">
+    <title>Como seria o mundo sem satélites?</title>
+</head>
+<body class="bg">
+    <a class="voltar" href="index.html"> VOLTAR</a>  
+    <P class="titulo">COMO SERIA O MUNDO SEM SATÉLITES?</P> 
+    <section>
+        <div class="container">
+          <div id="video_player" class="">
+            <video preload="metadata" id="main-video">
+              <source src="videos/Como seria o mundo sem satélites.mp4">
+            </video>
+            <p class="caption_text"></p>
+            <div class="progressAreaTime" style="--x:444px; display: none;">0 : 24</div>
+    
+            <div class="controls active">
+              <div class="progress-area">
+                <div class="progress-bar" style="width: 100.5%;">
+                  <span></span>
+                </div>
+              </div>
+    
+              <div class="controls-list">
+                <div class="controls-left">
+                  <span class="icon">
+                    <i class="material-icons fast-rewind">replay_10</i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons play_pause" title="Replay">replay</i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons fast-forward">forward_10</i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons volume">volume_up</i>
+    
+                    <input type="range" min="0" max="100" class="volume_range">
+                  </span>
+    
+                  <div class="timer">
+                    <span class="current">0 : 30</span> /
+                    <span class="duration">0:00</span>
+                  </div>
+                </div>
+    
+                <div class="controls-right">
+                  <span class="icon">
+                    <i class="material-icons auto-play"></i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons captionsBtn">closed_caption</i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons settingsBtn">settings</i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons picture_in_picutre">picture_in_picture_alt</i>
+                  </span>
+    
+                  <span class="icon">
+                    <i class="material-icons fullscreen">fullscreen</i>
+                  </span>
+                </div>
+              </div>
+            </div>
+    
+            <div id="settings">
+              <div class="playback">
+                <span>Playback Speed</span>
+                <ul>
+                  <li data-speed="0.25">0.25</li>
+    
+                  <li data-speed="0.5">0.5</li>
+    
+                  <li data-speed="0.75">0.75</li>
+    
+                  <li data-speed="1" class="active">Normal</li>
+    
+                  <li data-speed="1.25">1.25</li>
+    
+                  <li data-speed="1.5">1.5</li>
+    
+                  <li data-speed="1.75">1.75</li>
+    
+                  <li data-speed="2">2</li>
+                </ul>
+              </div>
+            </div>
+            <div id="captions">
+              <div class="caption">
+                <span>Select Subtitle</span>
+                <ul><li data-track="OFF" class="active">OFF</li>
+                  
+                <li data-track="English">English</li><li data-track="Urdu">Urdu</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="player/script.js"></script>
+
+</body>
+</html>
+
+

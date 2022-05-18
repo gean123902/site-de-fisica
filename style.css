@@ -1,0 +1,119 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	
+
+
+}
+.bg{
+    background-image: url("fotos/background.jpeg");    
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+
+}
+p{
+	font-family: 'corpo', sans-serif;
+	color: white;
+	margin-bottom: 0px;
+    margin-top: 0px; 
+	text-align: justify;
+}
+a{
+	text-decoration: none;
+	font-family: 'titulo', cursive;
+	position: absolute;
+	color: e4c331;
+
+	
+	
+}
+.titulo{
+	font-weight: normal;
+	color: pink;
+	position: absolute;
+    right: 0px;
+    left: 70px;
+    top: 20px;
+    font-family: 'titulo', cursive;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	font-size: 50px;
+}
+.voltar{
+	color: F0E68C;
+	font-size: 16px;
+	text-decoration: none;
+	position: absolute;
+	top: 30px;
+    left: 10px;
+    bottom: 100%;
+    right: 100%;
+}
+.menu{
+	position: absolute;
+    font-size: 30px;
+	color: F0E68C;
+	text-decoration: none;
+}
+.play:hover, .menu:hover{
+	
+	transform: scale(1.2);
+}
+.hover:hover, .voltar:hover, .play:hover, .menu:hover{
+	color: chartreuse;
+}
+.cur{
+
+}
+@font-face {
+	font-family: 'corpo';
+	src: url(fonts/Anton-Regular.ttf);
+}
+
+
+@font-face {
+	font-family: 'titulo';
+	src: url(fonts/RubikPuddles-Regular.ttf);
+}
+@font-face {
+	font-family: 'Copyright';
+	src: url(fonts/RubikBubbles-Regular2.ttf);
+}
+
+/* fallback */
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+  }
+  
+  
+ 
+
+
+
+
+
+
+
+
